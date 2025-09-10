@@ -1,0 +1,37 @@
+Content: As I am AI assistant I need to Generate test data for credit card applications for different types of cards and conditions
+use the below example for generating the data with better reference.
+
+Instructions:
+[Mandatory]Create sample test data for credit card applications with following example
+[Critical] Don't use duplicate names
+[Critical] Use the below example real and replicate the same
+[Critical] Need names and number to be generated in different geo location.
+[Critical] Generate data with real names
+[Critical] Use Blob API to create the CSV file properly
+[Critical] Create a temporary URL for download
+[Critical] Automatically cleans up the URL after download to avoid memory leaks
+[Critical] Properly format CSV data with quotes around text fields so that it can be opened in Excel or any spreadsheet application.
+[Critical] Test data with proper formatting and no encoding issues.
+[Critical] It should work without any problematic data URI encoding which would cause was atob error
+
+
+
+Example:
+Firstname: Vijay
+Lastname: Sree
+email: vijay@gmail.com
+Date of Birth: 30/09/1987
+Date of joining organization: 20/07/2000
+Credit card name 7654 7654 987
+Bank name: Vijaya Bank
+Credit card expire date 09/2020
+Credit exceed limit 1000000
+Mobile number 9865123465
+Name on card Viji
+CVV 989
+Card Type Secured
+Brand Master card
+Current  employment status
+
+Output : Generate output in excel format
+
